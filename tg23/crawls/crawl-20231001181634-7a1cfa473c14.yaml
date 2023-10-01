@@ -1,0 +1,122 @@
+seeds:
+  - url: https://www.gathering.org/tg23/
+    sitemap: https://www.gathering.org/api/sitemap.xml
+  - url: https://www.gathering.org/tg23/search?page=1&tab=pages
+  - url: https://www.gathering.org/tg23/search?page=2&tab=pages
+  - url: https://www.gathering.org/tg23/search?page=3&tab=pages
+  - url: https://www.gathering.org/tg23/search?page=1&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=2&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=3&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=4&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=5&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=6&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=7&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=8&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=9&tab=articles
+include:
+  - www.gathering.org/tg23
+  - www.gathering.org/api/wp-content
+  - www.gathering.org/api/?rest_route
+blockRules:
+  - url: matomo.gathering.org
+collection: tg23
+behaviors: autoscroll,autoplay,autofetch,siteSpecific
+waitUntil: load,networkidle0
+generateCDX: true
+combineWARCs: true
+saveState: always
+workers: 2
+profile: /crawls/profiles/tg23.tar.gz
+newContext: window
+screencastPort: 9037
+warcinfo:
+  operator: The Gathering
+  hostname: gathering.org
+state:
+  done: 71
+  queued:
+    - '{"added":"2023-10-01T18:07:19.423Z","url":"https://www.gathering.org/tg23/article/9435/bli-bedre-kjent-med-arets-konferansier","seedId":6,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.253Z","url":"https://www.gathering.org/tg23/article/9294/slik-kommer-du-deg-til-tg-ankomst-the-gathering-2023","seedId":7,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.254Z","url":"https://www.gathering.org/tg23/article/9225/er-du-norges-beste-gamer","seedId":7,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.254Z","url":"https://www.gathering.org/tg23/article/9233/mikael-er-arets-konferansier","seedId":7,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.254Z","url":"https://www.gathering.org/tg23/article/9264/dette-ma-du-gjore-for-du-kommer-til-vikingskipet","seedId":7,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.254Z","url":"https://www.gathering.org/tg23/article/9284/folg-oppriggingen-til-tg-direkte","seedId":7,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.255Z","url":"https://www.gathering.org/tg23/article/9018/blasemafian-kommer-pa-tg","seedId":7,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.255Z","url":"https://www.gathering.org/tg23/article/9206/dette-er-arets-cosplay-dommere","seedId":7,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.255Z","url":"https://www.gathering.org/tg23/article/9229/mot-eidsiva-pa-tg","seedId":7,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.255Z","url":"https://www.gathering.org/tg23/article/9237/crew-for-a-day-2","seedId":7,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.256Z","url":"https://www.gathering.org/tg23/article/9010/pegboard-nerds-til-tg-23","seedId":7,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.477Z","url":"https://www.gathering.org/tg23/article/8825/martin-vant-p3-aksjonens-tg-auksjon","seedId":8,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.478Z","url":"https://www.gathering.org/tg23/article/8824/na-gar-gratisbillettene-ut-pa-dato","seedId":8,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.478Z","url":"https://www.gathering.org/tg23/article/8838/dagspass-med-unginn-pa-tg","seedId":8,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.478Z","url":"https://www.gathering.org/tg23/article/8845/tghack-ctf","seedId":8,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.478Z","url":"https://www.gathering.org/tg23/article/8854/nm-i-rocket-league-og-csgo","seedId":8,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.480Z","url":"https://www.gathering.org/tg23/article/8785/eventyrtimen-pa-the-gathering","seedId":8,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.480Z","url":"https://www.gathering.org/tg23/article/8789/mot-nettpatruljen-pa-tg","seedId":8,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.480Z","url":"https://www.gathering.org/tg23/article/8802/info-om-setereservasjon-og-sitteplass","seedId":8,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.480Z","url":"https://www.gathering.org/tg23/article/8814/setereservasjon-for-tg-2023","seedId":8,"depth":1}'
+    - '{"added":"2023-10-01T18:07:24.480Z","url":"https://www.gathering.org/tg23/article/8834/nye-omrader-apner-for-plassreservasjon","seedId":8,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.026Z","url":"https://www.gathering.org/tg23/article/8575/subwoolfer-kommer-pa-tg","seedId":10,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.026Z","url":"https://www.gathering.org/tg23/article/8593/community-village-pa-tg","seedId":10,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.026Z","url":"https://www.gathering.org/tg23/article/8609/er-du-klar-for-en-runde-med-hado","seedId":10,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.027Z","url":"https://www.gathering.org/tg23/article/8428/creative-competitions-tg23","seedId":10,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.027Z","url":"https://www.gathering.org/tg23/article/8502/video-kom-i-tg-stemning","seedId":10,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.028Z","url":"https://www.gathering.org/tg23/article/8425/aaaarne-hvem-er-du-egentlig","seedId":10,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.028Z","url":"https://www.gathering.org/tg23/article/8439/velkommen-til-tg-gamergaels","seedId":10,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.029Z","url":"https://www.gathering.org/tg23/article/7732/na-slippes-billettene","seedId":10,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.029Z","url":"https://www.gathering.org/tg23/article/8319/brev-fra-sikkerhetsansvarlig","seedId":10,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.029Z","url":"https://www.gathering.org/tg23/article/8417/valorant-beacon-split-1-2023","seedId":10,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.631Z","url":"https://www.gathering.org/tg23/article/8751/zoo-comics-kommer-pa-tg","seedId":9,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.631Z","url":"https://www.gathering.org/tg23/article/8763/brev-fra-deltakerombudet","seedId":9,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.632Z","url":"https://www.gathering.org/tg23/article/8614/hell-robotics-kommer-pa-tg","seedId":9,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.632Z","url":"https://www.gathering.org/tg23/article/8622/cosplay-pa-the-gathering","seedId":9,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.632Z","url":"https://www.gathering.org/tg23/article/8664/ta-deg-en-bolle","seedId":9,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.632Z","url":"https://www.gathering.org/tg23/article/8685/det-skal-nerdes-pa-tg","seedId":9,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.632Z","url":"https://www.gathering.org/tg23/article/8704/e-sport-pa-tg23-video","seedId":9,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.632Z","url":"https://www.gathering.org/tg23/article/8707/e-sport-pa-tg","seedId":9,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.632Z","url":"https://www.gathering.org/tg23/article/8727/unesco-media-arts-cities-i-hamar","seedId":9,"depth":1}'
+    - '{"added":"2023-10-01T18:07:34.633Z","url":"https://www.gathering.org/tg23/article/8592/det-er-tid-for-a-samles","seedId":9,"depth":1}'
+    - '{"added":"2023-10-01T18:07:43.663Z","url":"https://www.gathering.org/tg23/article/8289/vil-du-vaere-crew-pa-tg-i-2023","seedId":11,"depth":1}'
+    - '{"added":"2023-10-01T18:07:43.663Z","url":"https://www.gathering.org/tg23/article/8297/informasjon-til-foreldre","seedId":11,"depth":1}'
+    - '{"added":"2023-10-01T18:07:43.664Z","url":"https://www.gathering.org/tg23/article/5351/alle-cosplayere-hater-sitt-eget-kostyme-litt","seedId":11,"depth":1}'
+    - '{"added":"2023-10-01T18:07:43.664Z","url":"https://www.gathering.org/tg23/article/6152/the-gathering-den-gang-da","seedId":11,"depth":1}'
+    - '{"added":"2023-10-01T18:07:43.664Z","url":"https://www.gathering.org/tg23/article/6876/abid-q-raja-apner-tg20online","seedId":11,"depth":1}'
+    - '{"added":"2023-10-01T18:07:43.665Z","url":"https://www.gathering.org/tg23/article/5063/bli-med-security-pa-jobb","seedId":11,"depth":1}'
+    - '{"added":"2023-10-01T18:07:43.665Z","url":"https://www.gathering.org/tg23/article/5078/stor-okning-blant-unge-pa-the-gathering","seedId":11,"depth":1}'
+    - '{"added":"2023-10-01T18:07:43.665Z","url":"https://www.gathering.org/tg23/article/5199/zzzz-sovn-er-for-pyser","seedId":11,"depth":1}'
+    - '{"added":"2023-10-01T18:07:43.665Z","url":"https://www.gathering.org/tg23/article/5209/ba-basshunter-om-a-holde-kjeft","seedId":11,"depth":1}'
+    - '{"added":"2023-10-01T18:07:43.666Z","url":"https://www.gathering.org/tg23/article/4873/kjorte-gjennom-fire-land-til-tg","seedId":11,"depth":1}'
+    - '{"added":"2023-10-01T18:07:49.635Z","url":"https://www.gathering.org/tg23/article/3156/ipv4-vs-ipv6-hvorfor-du-burde-bruke-ipv6","seedId":12,"depth":1}'
+    - '{"added":"2023-10-01T18:07:49.635Z","url":"https://www.gathering.org/tg23/article/73/har-du-lyst-til-a-vaere-med-a-arrangere-the-gathering","seedId":12,"depth":1}'
+    - '{"added":"2023-10-01T18:09:13.758Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/TG23_070423_FOTO-CELINE_BERNTSEN-01-2-scaled.jpg","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:09:13.758Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/TG23_070423_FOTO-CELINE_BERNTSEN-01.jpg","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:09:13.758Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/TG23_070423_FOTO-CELINE_BERNTSEN-02-2.jpg","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:09:13.758Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/TG23_070423_FOTO-CELINE_BERNTSEN-02.jpg","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:09:13.758Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/TG23_070423_FOTO-CELINE_BERNTSEN-04-2.jpg","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:09:13.758Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/TG23_070423_FOTO-CELINE_BERNTSEN-04.jpg","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:09:13.758Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/TG23_070423_FOTO-CELINE_BERNTSEN-05-2.jpg","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:09:13.758Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/TG23_070423_FOTO-CELINE_BERNTSEN-06.jpg","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:09:13.759Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/TG23_070423_FOTO-CELINE_BERNTSEN-06-2.jpg","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:09:13.759Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/TG23_070423_FOTO-CELINE_BERNTSEN-07-2.jpg","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:09:13.759Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/TG23_070423_FOTO-CELINE_BERNTSEN-07.jpg","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:09:13.759Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/TG23_070423_FOTO-CELINE_BERNTSEN-08-2-1.jpg","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:11.944Z","url":"https://www.gathering.org/tg23/calendar","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.959Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/BIOTECH-2023_DESKTOP.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.959Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/BIOTECH-2023_DESKTOP_4k.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.960Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/BIOTECH-2023_MOBILE.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.960Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/BIOTECH-2023_mobile_4k.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.960Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/SB-2023.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.961Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/SB-2023-4k.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.961Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/SB-2023_MOBILE.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.961Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/SB-2023_Mobile_4k.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:13:01.007Z","url":"https://www.gathering.org/api/wp-content/uploads/2022/12/Samtykkeskjema_2023.pdf","seedId":2,"depth":2}'
+    - '{"added":"2023-10-01T18:13:19.743Z","url":"https://www.gathering.org/tg23/page/english","seedId":2,"depth":2}'
+    - '{"added":"2023-10-01T18:14:45.810Z","url":"https://www.gathering.org/tg23/page/sikkerhetsregler","seedId":3,"depth":2}'
+  pending:
+    - seedId: 6
+      started: '2023-10-01T18:16:16.925Z'
+      url: https://www.gathering.org/tg23/article/9384/wow-sa-mye-kult-som-skjer
+      added: '2023-10-01T18:07:19.423Z'
+      depth: 1
+  failed: []
+  errors: []

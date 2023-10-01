@@ -1,0 +1,42 @@
+seeds:
+  - url: https://www.gathering.org/tg23/
+    sitemap: https://www.gathering.org/api/sitemap.xml
+  - url: https://www.gathering.org/tg23/search?page=1&tab=pages
+  - url: https://www.gathering.org/tg23/search?page=2&tab=pages
+  - url: https://www.gathering.org/tg23/search?page=3&tab=pages
+  - url: https://www.gathering.org/tg23/search?page=1&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=2&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=3&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=4&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=5&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=6&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=7&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=8&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=9&tab=articles
+include:
+  - www.gathering.org/tg23
+  - www.gathering.org/api/wp-content
+  - www.gathering.org/api/?rest_route
+blockRules:
+  - url: matomo.gathering.org
+collection: tg23
+behaviors: autoscroll,autoplay,autofetch,siteSpecific
+waitUntil: load,networkidle0
+generateCDX: true
+combineWARCs: true
+saveState: always
+workers: 2
+profile: /crawls/profiles/tg23.tar.gz
+newContext: window
+screencastPort: 9037
+warcinfo:
+  operator: The Gathering
+  hostname: gathering.org
+state:
+  done: 178
+  queued: []
+  pending: []
+  failed:
+    - '{"seedId":3,"started":"2023-10-01T18:27:28.621Z","failed":"1","url":"https:\/\/www.gathering.org\/tg23\/page\/sikkerhetsregler","added":"2023-10-01T18:14:45.810Z","depth":2}'
+    - '{"seedId":2,"started":"2023-10-01T18:27:26.611Z","failed":"1","url":"https:\/\/www.gathering.org\/tg23\/page\/english","added":"2023-10-01T18:13:19.743Z","depth":2}'
+  errors: []

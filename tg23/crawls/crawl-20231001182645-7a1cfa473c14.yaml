@@ -1,0 +1,86 @@
+seeds:
+  - url: https://www.gathering.org/tg23/
+    sitemap: https://www.gathering.org/api/sitemap.xml
+  - url: https://www.gathering.org/tg23/search?page=1&tab=pages
+  - url: https://www.gathering.org/tg23/search?page=2&tab=pages
+  - url: https://www.gathering.org/tg23/search?page=3&tab=pages
+  - url: https://www.gathering.org/tg23/search?page=1&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=2&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=3&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=4&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=5&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=6&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=7&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=8&tab=articles
+  - url: https://www.gathering.org/tg23/search?page=9&tab=articles
+include:
+  - www.gathering.org/tg23
+  - www.gathering.org/api/wp-content
+  - www.gathering.org/api/?rest_route
+blockRules:
+  - url: matomo.gathering.org
+collection: tg23
+behaviors: autoscroll,autoplay,autofetch,siteSpecific
+waitUntil: load,networkidle0
+generateCDX: true
+combineWARCs: true
+saveState: always
+workers: 2
+profile: /crawls/profiles/tg23.tar.gz
+newContext: window
+screencastPort: 9037
+warcinfo:
+  operator: The Gathering
+  hostname: gathering.org
+state:
+  done: 135
+  queued:
+    - '{"added":"2023-10-01T18:09:13.759Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/TG23_070423_FOTO-CELINE_BERNTSEN-08-2-1.jpg","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:11.944Z","url":"https://www.gathering.org/tg23/calendar","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.959Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/BIOTECH-2023_DESKTOP.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.959Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/BIOTECH-2023_DESKTOP_4k.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.960Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/BIOTECH-2023_MOBILE.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.960Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/BIOTECH-2023_mobile_4k.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.960Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/SB-2023.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.961Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/SB-2023-4k.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.961Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/SB-2023_MOBILE.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:10:46.961Z","url":"https://www.gathering.org/api/wp-content/uploads/2023/04/SB-2023_Mobile_4k.png","seedId":0,"depth":2}'
+    - '{"added":"2023-10-01T18:13:01.007Z","url":"https://www.gathering.org/api/wp-content/uploads/2022/12/Samtykkeskjema_2023.pdf","seedId":2,"depth":2}'
+    - '{"added":"2023-10-01T18:13:19.743Z","url":"https://www.gathering.org/tg23/page/english","seedId":2,"depth":2}'
+    - '{"added":"2023-10-01T18:14:45.810Z","url":"https://www.gathering.org/tg23/page/sikkerhetsregler","seedId":3,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.278Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07211.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.279Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07215.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.279Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07244.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.279Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07265.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.280Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07360.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.280Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07425.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.280Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07478.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.280Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07551.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.281Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07566.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.281Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07637.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.281Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07641.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.281Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07653.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.281Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07687.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.281Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07725.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.282Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07730.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.282Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07780.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.282Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC7097.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.282Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC7117.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.282Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC7165.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.283Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/IMG_6610.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.283Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/IMG_6739.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.283Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/MG_3149.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.283Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/MG_3175.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.283Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/MG_3181.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.283Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/MG_3245.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.284Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/DSC07672.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.284Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/IMG_6778.jpg","seedId":11,"depth":2}'
+    - '{"added":"2023-10-01T18:26:19.284Z","url":"https://www.gathering.org/api/wp-content/uploads/2019/04/IMG_6813.jpg","seedId":11,"depth":2}'
+  pending:
+    - seedId: 12
+      started: '2023-10-01T18:26:02.764Z'
+      url: https://www.gathering.org/tg23/article/73/har-du-lyst-til-a-vaere-med-a-arrangere-the-gathering
+      added: '2023-10-01T18:07:49.635Z'
+      depth: 1
+  failed: []
+  errors: []
